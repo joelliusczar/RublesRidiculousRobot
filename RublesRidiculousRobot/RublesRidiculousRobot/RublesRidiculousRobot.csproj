@@ -42,11 +42,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Adderbrutes.cs" />
+    <Compile Include="AssemblerStuffBang.cs" />
+    <Compile Include="DynamikKodeFaktory.cs" />
+    <Compile Include="IFilter.cs" />
+    <Compile Include="KompiyalStuff.cs" />
+    <Compile Include="kontextStuff\BiewModelPhorAddrivude.cs" />
+    <Compile Include="kontextStuff\IMerriamWebsterOfTypes.cs" />
+    <Compile Include="kontextStuff\ModelKontext.cs" />
+    <Compile Include="kontextStuff\MWExtend.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
