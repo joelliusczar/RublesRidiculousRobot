@@ -6,9 +6,7 @@ using System.Threading.Tasks;
 
 namespace RublesRidiculousRobot
 {
-    public class KompiyalStuff
+    public class KompilashunUnit
     {
-        
-
     }
 }

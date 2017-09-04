@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Experiments.kompiyal
+namespace RublesRidiculousRobot
 {
     public interface IFilter
     {
-        bool AppliesTo();
+        bool Matches(ModelKontext kontext);
     }
 }

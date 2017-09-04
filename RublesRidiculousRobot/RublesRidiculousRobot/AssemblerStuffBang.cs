@@ -5,15 +5,15 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Reflection;
 
-namespace Experiments.kompiyal
+namespace RublesRidiculousRobot
 {
-    public class AssemblerStuffBang
+    public class CombilationBatch
     {
         public HashSet<string> AssembliesBang { get; set; }
         public HashSet<string> NamespacesBang { get; set; }
         public HashSet<string> ClassCodeBang { get; set; }
 
-        public AssemblerStuffBang()
+        public CombilationBatch()
         {
             AssembliesBang = new HashSet<string>()
             {

@@ -44,15 +44,28 @@
   <ItemGroup>
     <Compile Include="Adderbrutes.cs" />
     <Compile Include="AssemblerStuffBang.cs" />
+    <Compile Include="BigBadFilterProvider.cs" />
+    <Compile Include="DynamicFilterAbstractBase.cs" />
     <Compile Include="DynamikKodeFaktory.cs" />
+    <Compile Include="FilterCompilationUnit.cs" />
     <Compile Include="IFilter.cs" />
+    <Compile Include="KompilashunUnit.cs" />
     <Compile Include="KompiyalStuff.cs" />
     <Compile Include="kontextStuff\BiewModelPhorAddrivude.cs" />
     <Compile Include="kontextStuff\IMerriamWebsterOfTypes.cs" />
     <Compile Include="kontextStuff\ModelKontext.cs" />
     <Compile Include="kontextStuff\MWExtend.cs" />
+    <Compile Include="KweschunareModel.cs" />
+    <Compile Include="KwestionaireModelFilterInfo.cs" />
+    <Compile Include="KwoteModel.cs" />
+    <Compile Include="KwoteModelFilterInfo.cs" />
+    <Compile Include="LanguageIntepreter.cs" />
+    <Compile Include="ListExtend.cs" />
+    <Compile Include="MootaDootaDefinishin.cs" />
+    <Compile Include="MootaDootaFilterCollection.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="MetadataFilterInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
