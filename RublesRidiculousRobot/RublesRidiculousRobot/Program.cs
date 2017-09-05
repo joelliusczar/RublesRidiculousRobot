@@ -16,7 +16,7 @@ namespace RublesRidiculousRobot
             MootaDootaDefinishin md = new MootaDootaDefinishin();
             md.DangerNumber = 5;
             md.MagicNumber = 9;
-            string filterString = "DriverModel.IsApplicant == false && DriverModel.UWReportDriverFK == null";
+            string filterString = "MurderousSentientRollerCoasterModel.IsConfinedToRails == false && MurderousSentientRollerCoasterModel.VictimCount > 0";
             BigBadFilterProvider bbfp = new BigBadFilterProvider();
             bbfp.CreateMetadataFiler(0, filterString, md);
         }

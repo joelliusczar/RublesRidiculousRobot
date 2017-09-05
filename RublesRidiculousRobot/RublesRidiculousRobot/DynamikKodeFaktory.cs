@@ -70,8 +70,6 @@ namespace {0}
 
         public IFilter CompiledPredicateInfo(string predicatString,IEnumerable<Type> typesOfStuff, IEnumerable<string> namesSpacesToInclude)
         {
-            CombilationBatch batch = new CombilationBatch();
-
 
             batch.NamespacesBang.AddRange(namesSpacesToInclude);
 
@@ -125,7 +123,7 @@ namespace {0}
                 options.ReferencedAssemblies.Add(assemb);
             }
 
-            string usings = string.Join("\n", batch.NamespacesBang.Select(n => string.Format("using {0}", n)));
+            string usings = string.Join("\n", batch.NamespacesBang.Select(n => string.Format("using {0};", n)));
             string classes = string.Join("\n\n", batch.ClassCodeBang);
             string sourceCode = string.Format(SourceCodeTemplate, NameHouse, usings, classes);
 
