@@ -20,6 +20,8 @@ namespace RublesRidiculousRobot
     {
         private static readonly Dictionary<Regex, string> Replacements = new Dictionary<Regex, string>()
         {
+            //(?<= |^|\()(?<model>[\w]+Model)(?=\.)"),"context.Get<${model}>()
+            // replaces the first atom of each dotted expression with a call into the context to get a model of that type
             { new Regex(@"(?<= |^|\()(?<model>[\w]+Model)(?=\.)"),"context.Get<${model}>()" },
             { new Regex(@" and ")," && "},
             { new Regex(@" or "), " || "}

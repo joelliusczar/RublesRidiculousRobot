@@ -24,7 +24,7 @@ namespace RublesRidiculousRobot
         //    if (tippy != null)
         //    {
         //        foreach (object instanse in tippy.AsEnumerable())
-        //        {
+        //        { 
         //            Add(instanse);
         //            model = instanse; //so are we just returning the last guy in the set???
         //        }
